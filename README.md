@@ -35,19 +35,19 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
   <div style="flex: 0 0 calc(50% - 10px); margin: 5px;">
     <b>Register Page</b> - A snapshot of the Athletics eShop's register page.
-    <img src="Screenshots/signup.jpg" alt="Register Page" width="60%">
+    <img src="Screenshots/signup.jpg" alt="Register Page" width="50%">
   </div>
   <div style="flex: 0 0 calc(50% - 10px); margin: 5px;">
     <b>Product Catalog</b> - A view of equipment category with detailed information for every product.
-    <img src="Screenshots/product_catalog.jpg" alt="Product Catalog" width="60%">
+    <img src="Screenshots/product_catalog.jpg" alt="Product Catalog" width="50%">
   </div>
   <div style="flex: 0 0 calc(50% - 10px); margin: 5px;">
     <b>Shopping Cart</b> - The user's shopping cart, ready for checkout.
-    <img src="Screenshots/shopping_cart.jpg" alt="Shopping Cart" width="60%">
+    <img src="Screenshots/shopping_cart.jpg" alt="Shopping Cart" width="50%">
   </div>
   <div style="flex: 0 0 calc(50% - 10px); margin: 5px;">
-    <b>Administrator Panel</b>.
-    <img src="Screenshots/admin_panel.jpg" alt="Administration Panel" width="60%">
+    <b>Administrator Panel</b>
+    <img src="Screenshots/admin_panel.jpg" alt="Administration Panel" width="50%">
   </div>
 </div>
 
