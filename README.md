@@ -33,7 +33,7 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
 ## Screenshots
 
 <b>Register Page</b> - A snapshot of the Athletics eShop's register page.
-<img src="Screenshots/signup.jpg" alt="Register Page" width=auto height=auto><br>
+<img src="Screenshots/signup.jpg" alt="Register Page" width=auto height="400"><br>
 
 <b>Product Catalog</b> - A view of equipment category with detailed information for every product.
 <img src="Screenshots/product_catalog.jpg" alt="Product Catalog" width=auto height="300"><br>
