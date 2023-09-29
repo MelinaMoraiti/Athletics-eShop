@@ -34,8 +34,10 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
 
 <b>Register Page</b> - A snapshot of the Athletics eShop's register page.
 <img src="Screenshots/signup.jpg" alt="Register Page" width=auto height="300">
+
 <b>Product Catalog</b> - A view of equipment category with detailed information for every product.
 <img src="Screenshots/product_catalog.jpg" alt="Product Catalog" width=auto height="300">
+
 <b>Shopping Cart</b> - The user's shopping cart, ready for checkout.
 <img src="Screenshots/shopping_cart.jpg" alt="Shopping Cart" width=auto height="300">
 
@@ -87,11 +89,13 @@ mysql -u root -p sports_eshop < database.sql
 The "database script" populates some users on DB with different roles their passwords are securely hashed with before being stored in the database. Use the following examples:
 
 - Regular user
-email: user@email.com
-password: user123
+  
+**email:** user@email.com
+**password:** user123
 
 - Admin
-email: admin@admin.com
-password: admin12345
+  
+**email:** admin@admin.com
+**password:** admin12345
 
 Thank you for exploring the Athletics eShop web application. If you have any questions, feedback, or suggestions, please feel free to contact me at [melinamoraith@gmail.com.com].
