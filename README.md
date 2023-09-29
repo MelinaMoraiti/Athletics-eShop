@@ -55,7 +55,7 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
   git clone https://github.com/MelinaMoraiti/Athletics eshop.git
 
 2. Navigate to the project directory:
-  cd "Athletics eshop"
+  cd Athletics-eShop
 3. Install project dependencies:
   npm install
 
