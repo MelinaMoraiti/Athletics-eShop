@@ -18,10 +18,10 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
 ## Features
 
 - **User Authentication:** Users can create accounts, log in, and manage their profiles.
-- **Product Catalog:** Browse and search for a wide range of athletic products.
+- **Product Catalog:** Browse for a wide range of athletic products.
 - **Shopping Cart:** Add products to the cart, update quantities, and proceed to checkout.
 - **Order Management:** Users can view their order history and track the status of their orders.
-- **Admin Panel:** Administrators can add, edit, or remove products, manage orders, and oversee user accounts.
+- **Admin Panel:** Administrators can add, edit, or remove products.
 - **Responsive Design:** The application is designed to be user-friendly on both desktop and mobile devices.
 
 ## Tech Stack
