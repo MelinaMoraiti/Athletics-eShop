@@ -41,6 +41,10 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
 <b>Shopping Cart</b> - The user's shopping cart, ready for checkout.
 <img src="Screenshots/shopping_cart.jpg" alt="Shopping Cart" width="300" height="300"><br>
 
+<b>Administrator Panel</b>.
+<img src="Screenshots/admin_panel.jpg" alt="Administration Panel" width="300" height="300"><br>
+
+
 
 ## Getting Started
 
