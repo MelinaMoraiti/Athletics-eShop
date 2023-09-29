@@ -9,7 +9,7 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Database Import](#database-import)
-[Credentials](#Credentials)
+- [Credentials](#Credentials)
 
 ## Overview
 
@@ -87,11 +87,11 @@ mysql -u root -p sports_eshop < database.sql
 
 The "database script" populates some users on DB with different roles their passwords are securely hashed with before being stored in the database. Use the following examples:
 
-Regular user
+- Regular user
 email: user@email.com
 password: user123
 
-Admin
+- Admin
 email: admin@admin.com
 password: admin12345
 
