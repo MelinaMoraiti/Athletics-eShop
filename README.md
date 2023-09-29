@@ -60,7 +60,7 @@ Here are some screenshots from the Athletics eShop application:
 ### Installation
 
 1. Clone the repository to your local machine:
-  git clone https://github.com/MelinaMoraiti/Athletics eshop.git
+  git clone https://github.com/MelinaMoraiti/Athletics-eShop.git
 
 2. Navigate to the project directory:
   cd Athletics-eShop
