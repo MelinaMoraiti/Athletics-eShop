@@ -94,7 +94,7 @@ mysql -u root -p sports_eshop < database.sql
 
 ## Credentials
 
-The "database script" populates some users on DB with different roles their passwords are securely hashed with before being stored in the database. Use the following examples:
+The "database script" populates some users on DB with different roles their passwords are securely hashed with bcrypt before being stored in the database. Use the following examples:
 
 - Regular user
   
