@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/cart.css" type="text/css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <%- include('header', { title: 'Shopping Cart', user}) %>
+    <div class="cart-container">
+      
+      <div class="cart-items">
+        <h2>Your Cart</h2>
+          <% cartItems.forEach(item => { %>
+              <div class="cart-item">
+                  <img class="product-image" src="<%= item.image_url %>" alt="<%= item.product_name %>">
+                  <div class="product-details">
+                    <p class="product-name"><%= item.product_name %></p>
+                    <p class="product-price"><b>Price:</b> <%= item.price %> €</p>
+                    <div class="actions">
+                      <form action="/update-cart-item/<%= item.product_id %>" method="POST">
+                        <input type="number" class="quantity-input" name="quantity" value="<%= item.quantity %>" min="1">
+                        <button type="submit" class="update-button">Update Quantity</button>
+                      </form>
+                      <form action="/remove-from-cart/<%= item.product_id %>" method="POST">
+                        <button type="submit" class="remove-button" data-product-id="<%= item.product_id %>"><i class="fas fa-trash"></i> Remove</button>
+                      </form>
+                    </div>
+                  </div>
+              </div>
+          <% }); %>
+      </div>
+      <div class="order-synopsis">
+          <h2>Order Synopsis</h2>
+          <p>Total Cost: <%= totalCost.toFixed(2) %></p>
+          <form action="/checkout" method="POST">
+              <label for="address">Address:</label>
+              <input type="text" name="address" id="address" required>
+              <button type="submit">Submit Order</button>
+          </form>
+      </div>
+  </div>

@@ -1,0 +1,102 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffaa00; /* Change background color to orange */
+  color: black; /* Change text color to white */
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+.form-container {
+  /* Container for form elements */
+  background-color: #1b1b32;
+  color: black;
+  padding: 20px;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  position: relative; /* Add this */
+}
+
+.button {
+  /* Button styles */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: black;
+  transition:  background-color 1s;
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: #ffffff; /* Change form background color to white */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  padding: 2em; /* Add padding for spacing */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #ffaa00; /* Change border color to orange */
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input
+{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  background-color: #f5f5f5; /* Change input background color to light gray */
+  border: 1px solid #f5f5f5; /* Change border color to match background */
+  color: black; /* Change text color to dark gray */
+  padding: 0.5em; /* Add padding for spacing */
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #ffaa00; /* Change background color to orange */
+  border: none;
+  color: black; /* Change text color to white */
+  cursor: pointer;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  transition: background-color 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+input[type="submit"]:hover {
+  background-color: #ff8800; /* Change background color on hover */
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}

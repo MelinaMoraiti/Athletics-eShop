@@ -1,0 +1,97 @@
+body{
+    background-color: #fff;
+}
+.greeting h1 {
+    font-size: 2em;
+    margin-top: 90px;
+  }
+  .greeting, p {
+    text-align: center;
+    padding-top: 7px;
+    background-color: #eee;
+  }
+  .logout-link{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  .logout-link:hover {
+    text-decoration: underline;
+  }
+  .order-history {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+}
+
+.order-history h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    background-color: #f8f8f8;
+}
+.order-history p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    background-color: #f8f8f8;
+}
+.change-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.change-info h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.change-info form {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.change-info label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.change-info input[type="text"],
+.change-info input[type="email"],
+.change-info input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.change-info button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 15%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.change-info button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the order history list */
+.order-history ul {
+    list-style: none;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.order-history li {
+    margin-bottom: 10px;
+}

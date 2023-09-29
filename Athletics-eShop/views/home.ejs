@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/styles/home_styles.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Home</title>
+</head>
+<body>
+  <div id="page-wrapper">
+    <%- include('header', { title: 'Home', user: user}) %>
+    <section id="hero">
+      <h2>Your Source for Premium Athletics Gear</h2>
+      <a href="signup.html" class="btn">Get Started</a>
+    </section>
+
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-trophy"></i></div>
+        <div class="desc">
+          <h2>Premium Quality</h2>
+          <p>
+            Our athletics gear is crafted using the finest materials, designed to enhance your performance and durability.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-shipping-fast"></i></div>
+        <div class="desc">
+          <h2>Fast Shipping</h2>
+          <p>
+            Enjoy quick and reliable shipping to get your athletics gear right when you need it.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-heart"></i></div>
+        <div class="desc">
+          <h2>Passionate Support</h2>
+          <p>
+            Our dedicated support team is here to assist you in selecting the perfect gear for your athletic journey.
+          </p>
+        </div>
+      </div>
+    </section>
+	
+
+    <section id="pricing">
+   
+      <div class="product" id="athletics-shoe">
+        <div class="level">Athletics Performance Shoe</div>
+        <p>
+          Elevate your training with our high-performance athletics shoe. Designed for comfort and optimized for results.
+        </p>
+        <a href="./products/shoes"><button class="btn">Browse Shoes</button></a>
+      </div>
+      <div class="product" id="athletics-apparel">
+        <div class="level">Athletics Performance Apparel</div>
+        <p>
+          Stay comfortable and stylish during your workouts with our premium athletic apparel collection.
+        </p>
+        <a href="./products/apparel"><button class="btn">Browse Apparel</button></a>
+      </div>
+      <div class="product" id="athletics-accessories">
+        <div class="level" >Athletics Equipment</div>
+        <p>
+          Enhance your training routine with our range of high-quality athletics accessories.
+        </p>
+        <a href="./products/equipment"><button  class="btn">Browse Equipment</button></a>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>© 2023, Athletics e-shop.</span>
+    </footer> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

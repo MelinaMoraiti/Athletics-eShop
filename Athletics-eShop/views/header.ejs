@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/header.css" type="text/css"/>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+
+</head>
+<body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <a href="/">
+          <img 
+            id="header-img"
+            src="../images/athlete minimal logo.jpg"
+            alt="Athletics e-shop logo"
+          /></a>
+        </div>
+    
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search products...">
+              </div>
+            </li>
+            <% if (user) { %>
+              <% if (user.email==='admin@admin.com') { %> <li><a href="../admin" ><i class="fas fa-key key-icon text-warning"></i></a></li> <% } %>
+              <li><a href="../profile"><i class="fas fa-user text-info"></i></a></li>
+              <li><a href="../logout">Logout</a></li>
+              
+            <% } else { %>
+              <li><a href="../login.html">Login</a></li>
+            <% } %>
+           
+            <li><a href="../products/apparel">Apparel</a></li>
+            <li><a href="../products/equipment">Equipment</a></li>
+            <li><a href="../products/shoes">Shoes</a></li>
+            <% if (user) { %><li><a href="../shopping_cart" ><i class="fas fa-shopping-cart text-primary"></i></a> </li> <% } %>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    
+ </body>
+</html>
+    
+        

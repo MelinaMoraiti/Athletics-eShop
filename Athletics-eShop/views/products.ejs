@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/products_styles.css" type="text/css">
+    <title><%= category %> </title>
+</head>
+<body>
+    <%- include('header', { title: category + ' Products', user: user }) %>
+    <div class="title">
+        <h1><%= category %></h1>
+    </div>
+<!-- 
+    <select id="sort">
+        <option value="price-low">Price: Low to High</option>
+        <option value="price-high">Price: High to Low</option>
+        <option value="name">Name</option>
+        <option value="rating">Average Rating</option>
+    </select>
+
+    <div id="filters">
+        <h3>Filters</h3>
+        <label for="price-range">Price Range:</label>
+        <input type="text" id="price-range" placeholder="Min">
+        <input type="text" id="price-range" placeholder="Max">
+    </div>
+-->
+    <ul class="product-list">
+        <% products.forEach(product => { %>
+            <li class="product-item">
+                <img src="<%= product.image_url %>" alt="<%= product.product_name %>">
+                <h2><%= product.product_name %></h2>
+                <p>Price: <b><%= parseFloat(product.price).toFixed(2) %> €</b></p>
+                <p><b>Description:</b> <%= product.description %></p>
+                <p class="rating"><b>Average Rating: </b><%= product.avg_rating %> </p>
+                <form action="shopping_cart/add-to-cart" method="POST">
+                    <input type="hidden" name="product_id" value= "<%= product.product_ID %>" >
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                  <% if (user) { %> <button class="add-to-cart" type="submit"><b>Add to Cart</b></button> <% } %>
+                </form>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
