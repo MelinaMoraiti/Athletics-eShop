@@ -71,7 +71,7 @@ Here are some screenshots from the Athletics eShop application:
 ### Database Import
 To set up the project's database, follow these steps:
 
-Create a Database:
+#### Create a Database:
 
 Use MySQL Workbench or any MySQL client to create an empty database for the project.
 
