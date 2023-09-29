@@ -36,7 +36,7 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
 *Register - A snapshot of the Athletics eShop's register page.*
 
 ![Product Catalog](Screenshots/product_catalog.jpg)
-*Product Details - A view of equipment category with detailed information for every product.*
+*Product Catalog - A view of equipment category with detailed information for every product.*
 
 ![Shopping Cart](Screenshots/shopping_cart.jpg)
 *Shopping Cart - The user's shopping cart, ready for checkout.*
