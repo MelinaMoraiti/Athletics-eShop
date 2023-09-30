@@ -1,15 +1,21 @@
 
 const express = require('express');
+const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const session = require('express-session');
+const app = express();
+
+// Use Helmet middleware for security headers
+app.use(helmet.noSniff());
+app.use(helmet.xssFilter());
+app.use(helmet.frameguard({ action: 'deny' }));
+
 const authRouter = require('./routes/auth'); // Import auth routes
 const profileRouter = require('./routes/profile'); // Import profile routes
 const productsRouter = require('./routes/products'); // Import products routes
 const cartRouter = require('./routes/shopping_cart'); //
 const adminRouter = require('./routes/admin'); 
 const path = require('path'); // Import the 'path' module
-const app = express();
-
 
 // Middleware setup
 app.use(bodyParser.urlencoded({ extended: true }));
