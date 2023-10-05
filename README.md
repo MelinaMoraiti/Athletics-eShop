@@ -106,4 +106,4 @@ The "database script" populates some users on DB with different roles their pass
 **email:** admin@admin.com
 **password:** admin12345
 
-Thank you for exploring the Athletics eShop web application. If you have any questions, feedback, or suggestions, please feel free to contact me at [melinamoraith@gmail.com.com].
+Thank you for exploring the Athletics eShop web application.
