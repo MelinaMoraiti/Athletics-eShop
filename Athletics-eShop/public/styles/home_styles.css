@@ -275,15 +275,15 @@ nav > ul {
 
 #athletics-shoe {
   
-  background-image: url('https://hips.hearstapps.com/hmg-prod/images/run-affordable-running-shoes-1676481206.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=1200:*');
+  background-image: url(''); /* Image URL for shoes */
 }
 
 #athletics-apparel {
-  background-image: url('https://wwd.com/wp-content/uploads/2017/03/mission-1.jpg?w=1000&h=563&crop=1');
+  background-image: url('');  /* Image URL for apparel */
 }
 
 #athletics-accessories {
-  background-image: url('https://media.self.com/photos/62bb2219e3f89bd70e68b8d5/4:3/w_2560%2Cc_limit/best-home-workout-equipment.jpg');
+  background-image: url('');/* Image URL for accessories */
 }
 
 .product > .level {
