@@ -65,16 +65,20 @@ Here are some screenshots from the Athletics eShop application:
 1. **Clone the repository to your local machine:**
   ```bash
   git clone https://github.com/MelinaMoraiti/Athletics-eShop.git
+```
 
 2. **Navigate to the project directory:**
   ```bash
   cd "Athletics-eShop"
+```
 3. **Install project dependencies:**
   ```bash
   npm install
+```
 4. **Create a .env file in the root directory of the project:**
   ```bash
   touch .env
+```
 
 #### Configuring .env
 
