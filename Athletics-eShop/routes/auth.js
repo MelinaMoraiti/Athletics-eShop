@@ -1,11 +1,11 @@
-// routes/auth.js
+
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
 const db = require("../db"); 
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const path = require('path'); // Import the 'path' module
+const path = require('path'); 
 
 router.use(express.static(path.join(__dirname, 'public')));
 
