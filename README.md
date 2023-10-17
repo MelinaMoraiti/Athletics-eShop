@@ -79,26 +79,6 @@ Here are some screenshots from the Athletics eShop application:
   ```bash
   touch .env
 ```
-
-#### Configuring .env
-
-Create your own .env file similar to the .env.example file and provide the necessary values.
-
-``` bash
-DB_HOST=localhost
-DB_USER=test_user
-DB_PASSWORD=test_password
-DB_DATABASE=sports_eshop
-PORT=3000
-DB_CONNECTION_LIMIT=10
-```
-- DB_HOST: The hostname or IP address of your database server.
-- DB_USER: The username for your database.
-- DB_PASSWORD: The password for your database.
-- DB_DATABASE: The name of the database you want to connect to.
-- PORT: The port on which your server will run (if applicable).
-- DB_CONNECTION_LIMIT: The maximum number of database connections (adjust as needed).
-
 #### Import Database
 
 Locate the database backup file in the project directory Database/backup_file.sql.
@@ -107,6 +87,18 @@ Use MySQL Workbench or the command line to import the database into your MySQL s
 ```bash
 mysql -u [username] -p [database_name] < backup_file.sql
 ```
+
+#### Configuring .env
+
+Create your own .env file and provide the necessary values similar to the .env.example file.
+
+- DB_HOST: The hostname or IP address of your database server.
+- DB_USER: The username for your database.
+- DB_PASSWORD: The password for your database.
+- DB_DATABASE: The name of the database you want to connect to.
+- PORT: The port on which your server will run.
+- DB_CONNECTION_LIMIT: The maximum number of database connections (adjust as needed).
+
 ### Running the Application
 1. **Start the application:**
   ```bash
