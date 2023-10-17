@@ -11,7 +11,7 @@
   - [Configuring .env](#configuring-.env)
   - [Database Import](#database-import)
   - [Running the Application](#running-the-application)
-[Credentials](#Credentials)
+- [Credentials](#Credentials)
 
 ## Overview
 
@@ -83,14 +83,14 @@ Here are some screenshots from the Athletics eShop application:
 #### Configuring .env
 
 Open the .env file using a text editor and add the following variables to connect as a test user to the database.
-
+``` bash
 DB_HOST=localhost
 DB_USER=test_user
 DB_PASSWORD=test_password
 DB_DATABASE=sports_eshop
 PORT=3000
 DB_CONNECTION_LIMIT=10
-
+```
 - DB_HOST: The hostname or IP address of your database server.
 - DB_USER: The username for your database.
 - DB_PASSWORD: The password for your database.
@@ -109,6 +109,7 @@ mysql -u <username> -p <database_name> < backup_file.sql
 1. **Start the application:**
   ```bash
   npm start
+```
 1. **Visit http://localhost:3000 in your web browser to access the application.**  
 
 ## Credentials
