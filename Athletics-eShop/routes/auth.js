@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
-const db = require("../public/scripts/db"); // Make sure the relative path is correct
+const db = require("../db"); 
 const bodyParser = require('body-parser');
 const session = require('express-session');
 const path = require('path'); // Import the 'path' module
