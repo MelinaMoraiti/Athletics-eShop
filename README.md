@@ -103,8 +103,9 @@ DB_CONNECTION_LIMIT=10
 Locate the database backup file in the project directory Database/backup_file.sql.
 
 Use MySQL Workbench or the command line to import the database into your MySQL server.
+```bash
 mysql -u [username] -p [database_name] < backup_file.sql
-
+```
 ### Running the Application
 1. **Start the application:**
   ```bash
