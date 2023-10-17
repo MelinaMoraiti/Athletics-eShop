@@ -1,8 +1,9 @@
-
 const express = require('express');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
+require('dotenv').config();
 const session = require('express-session');
+const path = require('path'); // Import the 'path' module
 const app = express();
 
 // Use Helmet middleware for security headers
@@ -15,7 +16,6 @@ const profileRouter = require('./routes/profile'); // Import profile routes
 const productsRouter = require('./routes/products'); // Import products routes
 const cartRouter = require('./routes/shopping_cart'); //
 const adminRouter = require('./routes/admin'); 
-const path = require('path'); // Import the 'path' module
 
 // Middleware setup
 app.use(bodyParser.urlencoded({ extended: true }));
