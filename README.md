@@ -82,7 +82,8 @@ Here are some screenshots from the Athletics eShop application:
 
 #### Configuring .env
 
-Open the .env file using a text editor and add the following variables to connect as a test user to the database.
+Create your own .env file similar to the .env.example file and provide the necessary values.
+
 ``` bash
 DB_HOST=localhost
 DB_USER=test_user
