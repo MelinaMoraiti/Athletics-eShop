@@ -8,8 +8,8 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Import Database](#import-database)
   - [Configuring .env](#configuring-.env)
-  - [Database Import](#database-import)
   - [Running the Application](#running-the-application)
 - [Credentials](#Credentials)
 
