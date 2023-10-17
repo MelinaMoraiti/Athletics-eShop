@@ -1,7 +1,7 @@
 const express = require('express');
-const db = require("../public/scripts/db");
+const db = require("../db");
 const router = express.Router();
-const path = require('path'); // Import the 'path' module
+const path = require('path'); 
 const { Console } = require('console');
 router.use(express.static(path.join(__dirname, 'public')));
 
