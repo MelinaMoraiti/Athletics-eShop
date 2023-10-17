@@ -1,5 +1,5 @@
 const express = require('express');
-const db = require("../public/scripts/db");
+const db = require("../db");
 const router = express.Router();
 
 router.get("/:category", (req, res) => {
