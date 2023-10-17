@@ -8,8 +8,10 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Configuring .env](#configuring-.env)
   - [Database Import](#database-import)
-- [Credentials](#Credentials)
+  - [Running the Application](#running-the-application)
+[Credentials](#Credentials)
 
 ## Overview
 
@@ -18,10 +20,10 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
 ## Features
 
 - **User Authentication:** Users can create accounts, log in, and manage their profiles.
-- **Product Catalog:** Browse for a wide range of athletic products.
+- **Product Catalog:** Browse and search for a wide range of athletic products.
 - **Shopping Cart:** Add products to the cart, update quantities, and proceed to checkout.
 - **Order Management:** Users can view their order history and track the status of their orders.
-- **Admin Panel:** Administrators can add, edit, or remove products.
+- **Admin Panel:** Administrators can add, edit, or remove products, manage orders, and oversee user accounts.
 - **Responsive Design:** The application is designed to be user-friendly on both desktop and mobile devices.
 
 ## Tech Stack
@@ -50,6 +52,7 @@ Here are some screenshots from the Athletics eShop application:
 
 ![Administrator Panel](Screenshots/admin_panel.jpg)
 
+
 ## Getting Started
 
 ### Prequisites
@@ -59,51 +62,61 @@ Here are some screenshots from the Athletics eShop application:
 
 ### Installation
 
-1. Clone the repository to your local machine:
+1. **Clone the repository to your local machine:**
+  ```bash
   git clone https://github.com/MelinaMoraiti/Athletics-eShop.git
 
-2. Navigate to the project directory:
-  cd Athletics-eShop
-3. Install project dependencies:
+2. **Navigate to the project directory:**
+  ```bash
+  cd "Athletics-eShop"
+3. **Install project dependencies:**
+  ```bash
   npm install
+4. **Create a .env file in the root directory of the project:**
+  ```bash
+  touch .env
 
+#### Configuring .env
 
-### Database Import
-To set up the project's database, follow these steps:
+Open the .env file using a text editor and add the following variables to connect as a test user to the database.
 
-#### Create a Database:
+DB_HOST=localhost
+DB_USER=test_user
+DB_PASSWORD=test_password
+DB_DATABASE=sports_eshop
+PORT=3000
+DB_CONNECTION_LIMIT=10
 
-Use MySQL Workbench or any MySQL client to create an empty database for the project.
+- DB_HOST: The hostname or IP address of your database server.
+- DB_USER: The username for your database.
+- DB_PASSWORD: The password for your database.
+- DB_DATABASE: The name of the database you want to connect to.
+- PORT: The port on which your server will run (if applicable).
+- DB_CONNECTION_LIMIT: The maximum number of database connections (adjust as needed).
 
-#### Database Configuration:
-
-If you want to change database and use your own.In the project directory, locate the public/scripts/db.js file and update the database connection information (e.g., database name, username, password).
-
-host=localhost
-user=your_username
-password=your_password
-database=your_database_name
-
-#### Import Database:
+#### Import Database
 
 Locate the database backup file in the project directory Database/backup_file.sql.
 
 Use MySQL Workbench or the command line to import the database into your MySQL server.
-mysql -u root -p sports_eshop < database.sql
+mysql -u <username> -p <database_name> < backup_file.sql
 
+### Running the Application
+1. **Start the application:**
+  ```bash
+  npm start
+1. **Visit http://localhost:3000 in your web browser to access the application.**  
 
 ## Credentials
 
-The "database script" populates some users on DB with different roles their passwords are securely hashed with bcrypt before being stored in the database. Use the following examples:
+The "database script" populates some users on DB with different roles their passwords are securely hashed with before being stored in the database. Use the following examples:
 
-- Regular user
-  
-**email:** user@email.com
-**password:** user123
+Regular user
+email: user@email.com
+password: user123
 
-- Admin
-  
-**email:** admin@admin.com
-**password:** admin12345
+Admin
+email: admin@admin.com
+password: admin12345
 
-Thank you for exploring the Athletics eShop web application.
+Thank you for exploring the Athletics eShop web application. 
