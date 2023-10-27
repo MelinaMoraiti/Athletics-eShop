@@ -75,7 +75,7 @@ Here are some screenshots from the Athletics eShop application:
   ```bash
   npm install
 ```
-4. **Create a .env file in the root directory of the project:**
+4. **Create a .env file in the root directory (Athletics-eShop) of the project :**
   ```bash
   touch .env
 ```
