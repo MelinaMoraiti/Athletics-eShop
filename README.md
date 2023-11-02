@@ -15,7 +15,7 @@
 
 ## Overview
 
-The Athletics eShop is a web-based e-commerce application developed to provide a platform for customers to perform CRUD operations. This project was created as a part of my university coursework.
+The Athletics eShop is a web-based e-commerce application developed to provide a platform for customers, admins to perform CRUD operations. This project was created as a part of my university coursework.
 
 ## Features
 
