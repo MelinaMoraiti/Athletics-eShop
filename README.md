@@ -36,6 +36,12 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
 
 Here are some screenshots from the Athletics eShop application:
 
+### Homepage
+
+![Homepage](Screenshots/homempage.jpg)
+
+---
+
 ### Product Catalog
 
 ![Product Catalog](Screenshots/product_catalog.jpg)
