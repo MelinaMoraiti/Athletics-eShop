@@ -42,12 +42,6 @@ Here are some screenshots from the Athletics eShop application:
 
 ---
 
-### Product Catalog
-
-![Product Catalog](Screenshots/product_catalog.jpg)
-
----
-
 ### Shopping Cart
 
 ![Shopping Cart](Screenshots/shopping_cart.jpg)
