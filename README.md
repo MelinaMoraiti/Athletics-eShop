@@ -38,7 +38,7 @@ Here are some screenshots from the Athletics eShop application:
 
 ### Homepage
 
-<img src="Screenshots/homepage.jpg" alt="Homepage"  width="400"  height="100%" >
+<img src="Screenshots/homepage.jpg" alt="Homepage"  width="500"  height=auto >
 
 ---
 
