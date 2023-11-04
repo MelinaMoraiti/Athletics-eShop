@@ -38,7 +38,7 @@ Here are some screenshots from the Athletics eShop application:
 
 ### Homepage
 
-![Homepage](Screenshots/homempage.jpg)
+![Homepage](Screenshots/homepage.jpg)
 
 ---
 
