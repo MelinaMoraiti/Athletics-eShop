@@ -20,10 +20,10 @@ The Athletics eShop is a web-based e-commerce application developed to provide a
 ## Features
 
 - **User Authentication:** Users can create accounts, log in, and manage their profiles.
-- **Product Catalog:** Browse and search for a wide range of athletic products.
-- **Shopping Cart:** Add products to the cart, update quantities, and proceed to checkout.
+- **Product Catalog:** Browse for a wide range of athletic products organized in different categories.
+- **Shopping Cart:** Add products to the cart,delete products from the cart, update quantities, and proceed to submit order.
 - **Order Management:** Users can view their order history and track the status of their orders.
-- **Admin Panel:** Administrators can add, edit, or remove products, manage orders, and oversee user accounts.
+- **Admin Panel:** Administrators can add, edit, or remove products.
 - **Responsive Design:** The application is designed to be user-friendly on both desktop and mobile devices.
 
 ## Tech Stack
@@ -108,7 +108,7 @@ Create your own .env file and provide the necessary values similar to the .env.e
 
 ## Credentials
 
-The "database script" populates some users on DB with different roles their passwords are securely hashed with before being stored in the database. Use the following examples:
+The "database script" populates some users on DB with different roles their passwords are securely hashed with bcrypt before being stored in the database. Use the following examples:
 
 Regular user
 email: user@email.com
