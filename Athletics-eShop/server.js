@@ -19,7 +19,13 @@ const adminRouter = require('./routes/admin');
 
 // Middleware setup
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(session({ secret: 'key', resave: false, saveUninitialized: true }));
+app.use(session({
+   secret: process.env.SESSION_SECRET, 
+   resave: true,
+   saveUninitialized: true,
+  //cookies will be sent over both HTTP and HTTPS connections. You would typically set this to true if your application is served over HTTPS.
+   cookie: { secure: false }
+}));
 app.set('view engine', 'ejs');
 //app.set('views', path.join(__dirname, 'views')); 
 // Use the routes
