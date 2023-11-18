@@ -98,6 +98,7 @@ Create your own .env file and provide the necessary values similar to the .env.e
 - DB_DATABASE: The name of the database you want to connect to.
 - PORT: The port on which your server will run.
 - DB_CONNECTION_LIMIT: The maximum number of database connections (adjust as needed).
+- SESSION_SECRET: This is used to compute the hash used to encrypt your cookie!, which helps prevent session data tampering. Give it a long, randomly generated value.
 
 ### Running the Application
 1. **Start the application:**
