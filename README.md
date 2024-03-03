@@ -105,7 +105,7 @@ Create your own .env file and provide the necessary values similar to the .env.e
   ```bash
   npm start
 ```
-1. **Visit http://localhost:3000 in your web browser to access the application.**  
+1. **Visit http://localhost:<PORT> in your web browser to access the application.** (Replace <PORT> with the port configured in .env file)  
 
 ## Credentials
 
