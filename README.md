@@ -73,6 +73,7 @@ Here are some screenshots from the Athletics eShop application:
 ```
 3. **Install project dependencies:**
   ```bash
+  npm update
   npm install
 ```
 4. **Create a .env file in the root directory (Athletics-eShop) of the project :**
